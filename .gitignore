@@ -11,6 +11,12 @@
 *.sln.docstates
 *.env
 
+_site
+.jekyll-metadata
+.idea
+.DS_Store
+npm-debug.log
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
