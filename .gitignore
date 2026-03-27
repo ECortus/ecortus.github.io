@@ -17,6 +17,7 @@ _site
 .idea
 .DS_Store
 npm-debug.log
+.vscode
 
 # Gemfile
 Gemfile.lock
