@@ -11,11 +11,15 @@
 *.sln.docstates
 *.env
 
+# Others files
 _site
 .jekyll-metadata
 .idea
 .DS_Store
 npm-debug.log
+
+# Gemfile
+Gemfile.lock
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
