@@ -15,7 +15,6 @@
 - Media Queries
 */
 
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -146,15 +145,6 @@
   p {
     margin-top: 0; }
   
-  
-  /* Links
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  /* a {
-    color: rgb(138, 138, 138); }
-  a:hover {
-    color: rgb(117, 117, 117); }
-  
-   */
   /* Buttons
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .button,
@@ -318,7 +308,7 @@
   td {
     padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #E1E1E1; }
+    border-bottom: 1px solid var(--fourth-theme-color); }
   th:first-child,
   td:first-child {
     padding-left: 0; }
@@ -369,7 +359,10 @@
     margin-top: 3rem;
     margin-bottom: 3.5rem;
     border-width: 0;
-    border-top: 1px solid #E1E1E1; }
+    border-top: 2px solid var(--fourth-theme-color); 
+    margin-left: -10%;
+    margin-right: -10%;
+  }
   
   
   /* Clearing
@@ -386,13 +379,6 @@
     clear: both; 
 
   }
-
-  /* .row:hover
-  {
-      border: 2px solid red;
-  } */
-  
-  
   
   /* Media Queries
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -402,7 +388,6 @@
   on small devices, paste the mobile query code up in the buttons section and style it
   there.
   */
-  
   
   /* Larger than mobile */
   @media (min-width: 400px) {}

@@ -45,7 +45,30 @@ function revealIncludeText(textArea, i)
 			textArea.style.opacity = 1;
 		}, TransitionDuration / 2);
     }
-    
+}
+
+function LoadPage(button, i) 
+{
+    document.getElementById('project_data_area').style.opacity = 0;
+
+    var inactiveClass = "btn kd-button";
+    var activeClass = "btn-active kd-button";
+
+    var x = document.getElementsByClassName(activeClass);
+
+    if(button.getAttribute("class") == activeClass)
+    {
+        x[0].className = inactiveClass;
+    }
+    else 
+    {
+        if(x.length != 0)
+        {
+            x[0].className = inactiveClass;
+        }
+
+        document.getElementById(button.getAttribute("id")).className = activeClass;
+    }
 }
 
 /* Called when the DOM content is loaded. */
@@ -70,6 +93,7 @@ document.addEventListener('DOMContentLoaded', function()
                 {
 					buttons[lastButtonIndex].class = "kd-button";
 				}
+
                 if (i != lastButtonIndex) 
                 {
 					buttons[i].class = "kd-button";
@@ -98,12 +122,13 @@ document.addEventListener('DOMContentLoaded', function()
                         textArea.style.opacity = 0;
 					}, TransitionDuration / 2);
 				}
+                
 				buttonLock = true;
                 setTimeout(function() 
                 {
 					buttonLock = false;
 				}, TransitionDuration);
-			}
+            }
 		});
 	}
 });

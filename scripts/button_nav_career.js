@@ -24,20 +24,22 @@ for(let i = 0; i < CareerNames.length; ++i)
 
 function LoadCareer(button, btnIndex)
 {
-    if(button.getAttribute("class") == "btn-career-5-active") /* case where you select the active button */
-    {
-        var x = document.getElementsByClassName("btn-career-5-active");
+    var inactiveClass = "btn-career-5 kd-career-button";
+    var activeClass = "btn-career-5-active kd-career-button";
 
-        x[0].className = "btn-career-5";
+    var x = document.getElementsByClassName(activeClass);
+
+    if(button.getAttribute("class") == activeClass) /* case where you select the active button */
+    {
+        x[0].className = inactiveClass;
         careerTextArea.innerHTML = "";
         careerTextArea.style.opacity = 0;
     }
     else 
     {
-        var x = document.getElementsByClassName("btn-career-5-active");
         if(x.length != 0) /* case where another project is currently active and being displayed. */
         {
-            x[0].className = "btn-career-5";
+            x[0].className = inactiveClass;
             careerTextArea.innerHTML = "";
             careerTextArea.style.opacity = 0;
         }
@@ -45,6 +47,6 @@ function LoadCareer(button, btnIndex)
         /* Set this button as the active display */
         careerTextArea.innerHTML = CareerText[btnIndex];
         careerTextArea.style.opacity = 1;
-        document.getElementById(button.getAttribute("id")).className = "btn-career-5-active";
+        document.getElementById(button.getAttribute("id")).className = activeClass;
     }
 }

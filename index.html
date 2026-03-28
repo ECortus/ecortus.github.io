@@ -14,10 +14,16 @@
         <!-- External file links for this html page  -->
         
         <!-- CSS -->
+         <link rel="stylesheet" type="text/css" href="styles/variables.css">
         <link rel="stylesheet" type="text/css" href="styles/skeleton.css">
         <link rel="stylesheet" type="text/css" href="styles/landing.css">
         <link rel="stylesheet" type="text/css" href="styles/career.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 
         <!-- Project related css files --> 
         <link rel="stylesheet" type="text/css" href="styles/projects.css">
@@ -35,6 +41,8 @@
     <!-- Add a custom container class implementation here.... -->
     <body id="top">  
         <div class="container" style="margin-top: 1%" align="center">   
+            <br>
+
             <div id="title">Rostyslav Mankevych</div>            
             <img class="landing_logo" src="./data/images/portrait.png" alt="Portrait">
             <div id="quick_links" class="quick-links-containter">
@@ -46,16 +54,16 @@
                 <a href="https://ecortus.itch.io" target="_blank"><i class="fa-brands fa-itch-io quick-link"></i></a>
             </div>
             <hr>
-            <div id="about_me">Hello, my name is Rostyslav, Ro, if simplified, and my passion is creating interesting and unique games. 
+            <div id="about_me">Hello, my name is Rostyslav, Ro, as simplified, and my passion is creating interesting and unique games. 
                 My experience and self-education have aided me in developing my programming and design skills set and allowed me to 
                 create different games packed with mechanics that bring joy. I'm focused on developing games that will satisfy us on this journey.</div>
             <hr>
 
             <section class="buttons">
                 <div class="button_container">
-                    <div id="projects-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Projects</div> 
-                    <div id="career-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Career</div> 
-                    <div id="skills-Button" class="btn btn-5 kd-button" onClick="document.getElementById('project_data_area').style.opacity = 0;">Skills</div> 
+                    <div id="projects-Button" class="btn btn-5 kd-button" onClick="LoadPage(this,0)">Projects</div> 
+                    <div id="career-Button" class="btn btn-5 kd-button" onClick="LoadPage(this,1)">Career</div> 
+                    <div id="skills-Button" class="btn btn-5 kd-button" onClick="LoadPage(this,2)">Skills</div> 
                 </div>
             </section>
         </div>
