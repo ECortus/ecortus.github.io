@@ -1,0 +1,50 @@
+#puzzle_title
+{
+    color: rgba(255, 255, 255, 255);
+    font-family: var(--text-subtitle-family);
+    font-size: 5.8rem; 
+    letter-spacing: +0.7rem;
+    text-align: center;
+    padding-bottom: 25px;
+} 
+
+
+#github_link_puzzle
+{
+    align-self: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+#puzzle_quote
+{
+    font-family: var(--text-title-family);
+    color: rgba(255, 255, 255, 255);
+    border-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    font-size: 25px;
+}
+
+#puzzle_tldr
+{
+    text-align: center;
+}
+
+#puzzle_body
+{
+    text-align: center;
+    font-family: var(--text-standard-family);
+}
+
+#puzzle_youtube
+{
+    text-align: center;
+}
+
+.puzzle_text
+{
+    color: rgba(255, 255, 255, 255);
+    font-size: 1.8rem; 
+    letter-spacing: -.05rem;
+} 
+

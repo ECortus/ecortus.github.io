@@ -1,10 +1,6 @@
-/*
-    This script handles the content assignment of project data
-*/
-
 const ProjectNames = 
 [
-    
+    'test_project'
 ]
 
 let ProjectText = [];

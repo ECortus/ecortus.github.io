@@ -59,6 +59,7 @@
 
     /* btn 5 */
     border: 0px solid;
+    border-radius: 10%;
     box-shadow: inset 0 0 20px var(--button-shadow-color);
     outline: 1px solid;
     outline-color: var(--button-outline-color);
@@ -96,6 +97,7 @@
 
   /* btn 5 */
   border: 0px solid;
+  border-radius: 10%;
   box-shadow: inset 0 0 20px var(--button-shadow-color);
   outline: 1px solid;
   outline-color: var(--button-outline-color);

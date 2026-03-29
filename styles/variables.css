@@ -12,16 +12,17 @@
   /* Buttons */
   --button-color: #febe7e;
   --button-outline-color: #febe7e;
-  --button-shadow-color: #42738850;
+  --button-outline-color-50: #febe7e50;
+  --button-shadow-color: #c2c47825;
 
   --button-active-color: #a75265;
   --button-active-outline-color: #a75265;
   --button-active-shadow-color: #42738850;
 
   /* Sliders */
-  --slider-1-color: #febe7e;
-  --slider-2-color: #a75265;
-  --slider-text-color: #1a1a2e;
+  --slider-1-color: #a75265;
+  --slider-2-color: #febe7e;
+  --slider-text-color: #ffffff;
 
   /* Text Colors */
   --text-standard-color: #ffffff;
@@ -32,7 +33,7 @@
   --text-shadow-color: #427388;
 
   /* Text Families */
-  --text-standard-family: 'cascadia', monospace;
+  --text-standard-family: "Datatype", monospace;
   
   --text-title-family: 'Archivo Black', sans-serif;
   --text-subtitle-family: 'Major Mono Display', monospace;

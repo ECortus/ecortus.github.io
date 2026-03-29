@@ -21,7 +21,7 @@ body
 {
     color: var(--text-title-color);
     font-family: var(--text-title-family); /* font family */
-    font-size: 60pt; /* size of the font */
+    font-size: 48pt; /* size of the font */
     margin: -25px auto; /* vertical margin from top, horizontal centering (using auto) */
     width: max-content; /* Takes up full width of screen */
 }  
@@ -51,12 +51,17 @@ body
 /* An image encapsulating the full width of a page */
 .landing_logo
 {
-    margin: 10px auto;
+    border-radius: 45%;
+    margin: 25px auto;
     height: 25vh;
-    clip-path: circle(50%);
 
     /* DEBUG VARIABLES */
     border: 0px solid rgb(255, 102, 0);
+}
+
+.shadow_logo {
+  padding: 5px;
+  background: radial-gradient(var(--background-2-color), var(--background-1-color));
 }
   
 /* Shortcut links */
@@ -98,7 +103,6 @@ body
             justify-content: center;
     text-align: center;
     width: 90%;
-    /* border: 2px solid #f60e0e; */
   }
   
   .button_container {
@@ -159,6 +163,7 @@ body
     width: 100%;
 
     border: 0px solid;
+    border-radius: 10%;
     box-shadow: inset 0 0 20px var(--button-shadow-color);
     outline: 1px solid;
     outline-color: var(--button-outline-color);
@@ -171,7 +176,7 @@ body
   .btn:hover {
     border: 0px solid;
     box-shadow: inset 0 0 20px var(--button-shadow-color), 0 0 20px var(--button-shadow-color); 
-    outline-color: var(--button-outline-color);
+    outline-color: var(--button-outline-color-50);
     outline-offset: 15px;
     text-shadow: 1px 1px 2px var(--text-shadow-color);
 
@@ -192,6 +197,8 @@ body
     width: 100%;
 
     border: 0px solid;
+    border-radius: 10%;
+
     box-shadow: inset 0 0 20px var(--button-shadow-color);
     outline: 1px solid;
     outline-color: var(--button-outline-color);
@@ -204,7 +211,7 @@ body
   .btn-active:hover {
     border: 0px solid;
   box-shadow: inset 0 0 20px var(--button-shadow-color), 0 0 20px var(--button-shadow-color); 
-  outline-color: var(--button-outline-color);
+  outline-color: var(--button-outline-color-50);
   outline-offset: 15px;
   text-shadow: 1px 1px 2px var(--text-shadow-color);
   text-decoration: none;
