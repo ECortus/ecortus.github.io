@@ -1,43 +1,60 @@
 :root
 {
+  --white-color: #ffffff;
+
+  /* Palette */
+  --one-color: #1E2A44;
+  --two-color: #4A6FA5;
+  --three-color: #F4A261;
+  --four-color: #2EC4B6;
+
   /* Background */
-  --background-1-color: #53354a;
-  --background-2-color: #16213e;
-  --background-3-color: #0f3460;
-  --background-4-color: #53354a;
+  --background-0-color: #192642;
+  --background-1-color: var(--one-color);
+  --background-2-color: #0a3b37;
 
   /* Icons */
-  --icon-color: #febe7e;
+  --icon-color: var(--four-color);
+  --icon-selection-color: var(--three-color);
 
   /* Buttons */
-  --button-color: #febe7e;
-  --button-outline-color: #febe7e;
-  --button-outline-color-50: #febe7e50;
-  --button-shadow-color: #c2c47825;
+  --button-color: #ffffff;
+  --button-outline-color: #ffffff;
+  --button-shadow-color: #ffffff50;
 
-  --button-active-color: #a75265;
-  --button-active-outline-color: #a75265;
-  --button-active-shadow-color: #42738850;
+  --button-selection-color: var(--three-color);
+  --button-selection-outline-color: #F4A26150;
+  --button-selection-shadow-color: #F4A26150;
+
+  --button-active-color: var(--four-color);
+  --button-active-outline-color: var(--four-color);
+  --button-active-shadow-color: #2EC4B650;
 
   /* Sliders */
-  --slider-1-color: #a75265;
-  --slider-2-color: #febe7e;
+  --slider-1-color: #ffffff00;
+  --slider-2-color: var(--four-color);
+  --slider-3-color: var(--three-color);
+
   --slider-text-color: #ffffff;
+  --slider-text-selection-color: var(--three-color);
 
   /* Text Colors */
   --text-standard-color: #ffffff;
-  --text-active-color: #e0728a;
-  --text-selection-color: #e0728a;
+  --text-active-color: var(--four-color);
+  --text-selection-color: var(--three-color);
 
-  --text-title-color: #febe7e;
-  --text-shadow-color: #427388;
+  --text-title-color: #ffffff;
+  --text-shadow-color: #ffffff15;
 
   /* Text Families */
-  --text-standard-family: "Datatype", monospace;
-  
-  --text-title-family: 'Archivo Black', sans-serif;
-  --text-subtitle-family: 'Major Mono Display', monospace;
+  --text-title-family: "Jersey 15", sans-serif;
+  --text-subtitle-family: "Emilys Candy", serif;
+
+  --text-standard-family: "Montserrat", sans-serif;
+  --text-button-family: "Lexend", sans-serif;
+
+  --text-slider-family: "Lexend", sans-serif;
 
   /* Others */
-  --border-color: #febe7e;
+  --border-color: var(--two-color);
 }

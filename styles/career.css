@@ -3,7 +3,7 @@
 .buttons_career 
 {
   margin-top: 1.5rem;
-  font-family: var(--text-standard-family);
+  font-family: var(--text-button-family);
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -60,7 +60,7 @@
     /* btn 5 */
     border: 0px solid;
     border-radius: 10%;
-    box-shadow: inset 0 0 20px var(--button-shadow-color);
+    box-shadow: inset 0 0 0px var(--button-shadow-color);
     outline: 1px solid;
     outline-color: var(--button-outline-color);
     outline-offset: 0px;
@@ -73,8 +73,8 @@
 {
   color: var(--text-selection-color);
   border: 0px solid;
-  box-shadow: inset 0 0 20px var(--button-shadow-color), 0 0 20px var(--button-shadow-color); 
-  outline-color: var(--button-outline-color);
+  box-shadow: inset 0 0 20px var(--button-selection-shadow-color), 0 0 20px var(--button-selection-shadow-color); 
+    outline-color: var(--button-selection-outline-color);
   outline-offset: 15px;
   text-shadow: 1px 1px 2px var(--text-shadow-color);
   text-decoration: none;
@@ -98,9 +98,9 @@
   /* btn 5 */
   border: 0px solid;
   border-radius: 10%;
-  box-shadow: inset 0 0 20px var(--button-shadow-color);
+  box-shadow: inset 0 0 20px var(--button-active-shadow-color);
   outline: 1px solid;
-  outline-color: var(--button-outline-color);
+  outline-color: var(--button-active-outline-color);
   outline-offset: 0px;
   text-shadow: none;
   -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -110,10 +110,11 @@
 .btn-career-5-active:hover 
 {
   border: 0px solid;
-  box-shadow: inset 0 0 20px var(--button-shadow-color), 0 0 20px var(--button-shadow-color); 
-  outline-color: var(--button-outline-color);
+  box-shadow: inset 0 0 20px var(--button-active-shadow-color), 0 0 20px var(--button-active-shadow-color); 
+  outline-color: var(--button-active-outline-color);
   outline-offset: 15px;
   text-shadow: 1px 1px 2px var(--text-shadow-color);
+  color: var(--button-active-color);
   text-decoration: none;
 }
 

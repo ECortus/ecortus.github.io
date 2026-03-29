@@ -1,7 +1,7 @@
 .proj-button
 {
     margin: 5px;
-  border: 2px solid var(--button-color);
+  border: 3px solid var(--button-color);
 	position: relative;
 	display: inline-block;
 	border-radius: 50%;
@@ -15,10 +15,10 @@
 }
 
 .proj-button:hover {
-    
-  box-shadow: inset 0 0 20px var(--button-shadow-color), 0 0 20px var(--button-shadow-color); 
-  outline-color: var(--button-outline-color);
-  text-shadow: 1px 1px 2px var(--text-shadow-color);
+    border: 3px solid var(--button-selection-color);
+  box-shadow: inset 0 0 20px var(--button-selection-shadow-color), 0 0 20px var(--button-selection-shadow-color); 
+  outline-color: var(--button-selection-outline-color);
+  text-shadow: 1px 1px 2px var(--button-selection-shadow-color);
 }
 
 .proj-button-active
@@ -26,7 +26,7 @@
     margin: 5px;
 	position: relative;
 	display: inline-block;
-	border: 2px solid var(--button-active-color);
+	border: 3px solid var(--button-active-color);
 	border-radius: 50%;
 	overflow: hidden;
 	transition: transform .3s;
@@ -39,9 +39,9 @@
 
 .proj-button-active:hover
 {
-  box-shadow: inset 0 0 20px var(--button-shadow-color), 0 0 20px var(--button-shadow-color); 
-  outline-color: var(--button-outline-color);
-  text-shadow: 1px 1px 2px var(--text-shadow-color);
+  box-shadow: inset 0 0 20px var(--button-active-shadow-color), 0 0 20px var(--button-active-shadow-color); 
+  outline-color: var(--button-active-outline-color);
+  text-shadow: 1px 1px 2px var(--button-active-shadow-color);
 }
 
 .proj-button-img 
