@@ -359,7 +359,7 @@
     margin-top: 3rem;
     margin-bottom: 3.5rem;
     border-width: 0;
-    border-top: 2px solid var(--fourth-theme-color); 
+    border-top: 2px solid var(--border-color);
     margin-left: -10%;
     margin-right: -10%;
   }

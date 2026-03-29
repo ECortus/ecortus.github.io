@@ -1,7 +1,7 @@
 :root
 {
   /* Background */
-  --background-1-color: #1a1a2e;
+  --background-1-color: #53354a;
   --background-2-color: #16213e;
   --background-3-color: #0f3460;
   --background-4-color: #53354a;
@@ -10,15 +10,26 @@
   --icon-color: #febe7e;
 
   /* Buttons */
+  --button-color: #febe7e;
   --button-outline-color: #febe7e;
-  --button-shadow-color: 1px 1px 2px #427388;
+  --button-shadow-color: #42738850;
+
+  --button-active-color: #a75265;
+  --button-active-outline-color: #a75265;
+  --button-active-shadow-color: #42738850;
+
+  /* Sliders */
+  --slider-1-color: #febe7e;
+  --slider-2-color: #a75265;
+  --slider-text-color: #1a1a2e;
 
   /* Text Colors */
-  --text-stantard-color: #febe7e;
-  --text-active-color: #a75265;
-  --text-selection-color: #a75265;
+  --text-standard-color: #ffffff;
+  --text-active-color: #e0728a;
+  --text-selection-color: #e0728a;
 
   --text-title-color: #febe7e;
+  --text-shadow-color: #427388;
 
   /* Text Families */
   --text-standard-family: 'cascadia', monospace;
@@ -28,18 +39,4 @@
 
   /* Others */
   --border-color: #febe7e;
-
-  /* Test variables */
-  --primary-theme-color: #57385c;
-  --secondary-theme-color: #a75265;
-  --third-theme-color: #ec7263;
-  --fourth-theme-color: #febe7e;
-
-  --text-common-family: 'cascadia', monospace;
-  --text-title-family: "Archivo Black", sans-serif;
-  --text-education-title-family: 'Major Mono Display', monospace;
-
-  --text-theme-color: #febe7e;
-  --text-theme-active-color: #a75265;
-  --text-theme-selection-color: #a75265;
 }

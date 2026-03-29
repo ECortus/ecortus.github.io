@@ -1,0 +1,59 @@
+.proj-button
+{
+  border: 2px solid var(--button-color);
+	position: relative;
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+	transition: transform .3s;
+	max-width:10vh;
+	min-width:10vh;
+  min-height:10vh;
+	max-height:10vh;
+  vertical-align: middle;
+}
+
+.proj-button:hover {
+    
+  /* border: 3px solid white; */
+  box-shadow: inset 0 0 20px var(--button-shadow-color), 0 0 20px var(--button-shadow-color); 
+  outline-color: var(--button-outline-color);
+  text-shadow: 1px 1px 2px var(--text-shadow-color);
+}
+
+.proj-button-active
+{
+	position: relative;
+	display: inline-block;
+	border: 2px solid var(--button-active-color);
+	border-radius: 50%;
+	overflow: hidden;
+	transition: transform .3s;
+	vertical-align: middle;
+	max-width:10vh;
+	min-width:10vh;
+  min-height:10vh;
+	max-height:10vh;
+}
+
+.proj-button-active:hover
+{
+  box-shadow: inset 0 0 20px var(--button-shadow-color), 0 0 20px var(--button-shadow-color); 
+  outline-color: var(--button-outline-color);
+  text-shadow: 1px 1px 2px var(--text-shadow-color);
+}
+
+.proj-button-img 
+{
+	overflow: hidden;
+	transition: transform .5s;
+	max-width: 100%;
+	width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+
+#proj-button-section
+{
+    text-align: center;
+}
