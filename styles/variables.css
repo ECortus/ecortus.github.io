@@ -33,7 +33,9 @@
   /* Sliders */
   --slider-1-color: #ffffff00;
   --slider-2-color: var(--four-color);
-  --slider-3-color: var(--three-color);
+  --slider-3-color: #2EC4B615;
+  --slider-4-color: #2EC4B650;
+  --slider-4-selection-color: #F4A26125;
 
   --slider-text-color: #ffffff;
   --slider-text-selection-color: var(--three-color);

@@ -7,7 +7,7 @@
 body
 {
     background-color: #17213a;
-    background-image: repeating-radial-gradient(#17223a25, #355d9b25, #133532  150% );
+    background-image: repeating-radial-gradient(#17223a25, #355d9b25, #133532  125% );
     height: 200vh;
     display: block;
     font-size: 15pt;
