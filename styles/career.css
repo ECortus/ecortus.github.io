@@ -157,8 +157,8 @@
 .edu-title-medium
 {
     color: var(--text-standard-color);
-    font-family: var(--text-standard-family);
-    font-size: 2.2rem; 
+    font-family: var(--text-subtitle-family);
+    font-size: 2.6rem; 
     letter-spacing: +0.7rem;
     text-align: center;
     padding-bottom: 25px;

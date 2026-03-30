@@ -35,7 +35,8 @@
   --slider-2-color: var(--four-color);
   --slider-3-color: #2EC4B615;
   --slider-4-color: #2EC4B650;
-  --slider-4-selection-color: #F4A26125;
+  --slider-4-selection-color: #F4A26120;
+  --slider-5-selection-color: #F4A26160;
 
   --slider-text-color: #ffffff;
   --slider-text-selection-color: var(--three-color);
@@ -50,7 +51,7 @@
 
   /* Text Families */
   --text-title-family: "Jersey 15", sans-serif;
-  --text-subtitle-family: "Emilys Candy", serif;
+  --text-subtitle-family: "Irish Grover", system-ui;
 
   --text-standard-family: "Montserrat", sans-serif;
   --text-button-family: "Lexend", sans-serif;

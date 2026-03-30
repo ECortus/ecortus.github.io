@@ -21,9 +21,20 @@
   position: relative;
 }
 
-.chart .metric .metric-value {
+.chart :hover
+{
+  border: 5px solid var(--slider-4-selection-color);
   font-weight: bold;
-  color: var(--slider-2-color);
+}
+
+.metric :hover
+{
+  border: 0px solid var(--slider-4-color);
+}
+
+.metric-value {
+  color: var(--slider-text-color);
+  font-family: var(--text-standard-family);
 }
 
 .chart-horizontal {
@@ -65,6 +76,16 @@
 
 .progress-bar:hover {
   background-color: var(--slider-4-selection-color);
+}
+
+.progress-bar:hover::before {
+  background: repeating-linear-gradient(
+    to right,
+    var(--slider-5-selection-color) 0,
+    var(--slider-5-selection-color) 20px,
+    transparent 20px,
+    transparent 25px
+  );
 }
 
 .bar-label {

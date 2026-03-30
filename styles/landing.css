@@ -75,18 +75,23 @@ body
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  column-gap: 15px;
 }
 
 .quick-link
 {
   color: var(--icon-color);
   font-size: 3.5rem; 
-  margin: 0.5rem;
 }
 
 .quick-link:hover
 {
   color: var(--icon-selection-color);
+  font-size: 4rem;
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+  margin-left: -0.235rem;
+  margin-right: -0.235rem;
 }
 
 .buttons {
