@@ -1,4 +1,4 @@
-#puzzle_title
+#project_title
 {
     color: rgba(255, 255, 255, 255);
     font-family: var(--text-subtitle-family);
@@ -9,14 +9,14 @@
 } 
 
 
-#github_link_puzzle
+#github_link
 {
     align-self: center;
     text-align: center;
     font-size: 50px;
 }
 
-#puzzle_quote
+#project_quote
 {
     font-family: var(--text-title-family);
     color: rgba(255, 255, 255, 255);
@@ -25,23 +25,23 @@
     font-size: 25px;
 }
 
-#puzzle_tldr
+#project_tldr
 {
     text-align: center;
 }
 
-#puzzle_body
+#project_body
 {
     text-align: center;
     font-family: var(--text-standard-family);
 }
 
-#puzzle_youtube
+#project_youtube
 {
     text-align: center;
 }
 
-.puzzle_text
+.project_text
 {
     color: rgba(255, 255, 255, 255);
     font-size: 1.8rem; 
