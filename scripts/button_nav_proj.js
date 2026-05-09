@@ -1,5 +1,6 @@
 const ProjectNames = 
 [
+    'stickman_io',
     'custom_tools'
 ]
 

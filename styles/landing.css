@@ -94,6 +94,12 @@ body
   margin-right: -0.235rem;
 }
 
+.ref-link
+{
+  color: var(--icon-color);
+  font-size: 2rem; 
+}
+
 .buttons {
     color: var(--text-standard-color);
     font-family: var(--text-button-family);

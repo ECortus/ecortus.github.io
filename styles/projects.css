@@ -59,3 +59,35 @@
     text-align: center;
     align-items: center;
 }
+
+.proj-gifs-container
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+
+	justify-items: center;
+	align-self: center;
+}
+
+.proj-gif
+{
+	width: 600px;
+	height: auto;
+	margin: 25px;
+}
+
+.proj-video-container
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.proj-video
+{
+	width: 1200px;
+	height: auto;
+}
