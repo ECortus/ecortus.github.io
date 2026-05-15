@@ -11,6 +11,9 @@
 *.sln.docstates
 *.env
 
+*.csproj.lscache
+*.lscache
+
 # Others files
 _site
 .jekyll-metadata
