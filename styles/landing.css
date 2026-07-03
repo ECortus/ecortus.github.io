@@ -15,14 +15,23 @@ body
 
     /* DEBUG VARIABLES */
     border: 0px solid rgb(255, 255, 0);
-  }
+}
 
 #title
 {
     color: var(--text-title-color);
     font-family: var(--text-title-family); /* font family */
     font-size: 64pt; /* size of the font */
-    margin: -35px auto; /* vertical margin from top, horizontal centering (using auto) */
+    margin: -30px auto; /* vertical margin from top, horizontal centering (using auto) */
+    width: max-content; /* Takes up full width of screen */
+}  
+
+#sub-title
+{
+    color: var(--text-title-color);
+    font-family: var(--text-standard-family); /* font family */
+    font-size: 28pt; /* size of the font */
+    margin: -15px auto; /* vertical margin from top, horizontal centering (using auto) */
     width: max-content; /* Takes up full width of screen */
 }  
 
