@@ -86,7 +86,13 @@
 	align-items: center;
 }
 
-.proj-video
+.proj-video-large
+{
+	width: 600px;
+	height: auto;
+}
+
+.proj-video-medium
 {
 	width: 1000px;
 	height: auto;
