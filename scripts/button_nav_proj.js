@@ -1,8 +1,7 @@
 const ProjectNames = 
 [
     'ascentetik',
-    'stickman_io',
-    'custom_tools'
+    'stickman_io'
 ]
 
 let ProjectText = [];
